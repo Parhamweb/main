@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parham · Digital Identity</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <!-- Google Font: Inter + Playfair Display برای تیترها -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet"/>
+    <!-- link by css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32*32" href="logo-web.png">
+  </head>
+  <body>
+    <!-- ============================================================
+    HEADER
+    ============================================================ -->
+    <header>
+      <div class="container nav">
+        <div class="logo-wrapper">
+          <!-- لوگوی Pr درون دایره‌ی سفید -->
+          <svg
+            class="logo-svg"
+            viewBox="0 0 200 200"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <!-- دایره پس‌زمینه سفید -->
+            <circle cx="100" cy="100" r="90" fill="white" stroke="none" />
+            <!-- حروف Pr با رنگ مشکی -->
+            <path
+              class="logo-path"
+              d="M 50,35 
+                 L 50,165 
+                 M 50,35 
+                 L 115,35 
+                 A 35,35 0 0 1 115,105 
+                 L 50,105
+                 M 135,55 
+                 L 165,55 
+                 A 20,20 0 0 1 165,95 
+                 L 135,165"
+              stroke="#1a1a1a"
+              stroke-width="14"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+
+        <!-- دکمه همبرگری -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- منوی اصلی -->
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#about"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+          </li>
+          <li>
+            <a href="#projects"><i class="fas fa-folder-open"></i> Work</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-paper-plane"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ============================================================
+    HERO
+    ============================================================ -->
+    <section class="hero container">
+      <p class="greeting"><i class="fas fa-terminal"></i> Hi, my name is</p>
+      <h1>Parham</h1>
+      <h2>I build <span class="highlight">web experiences.</span></h2>
+      <p>
+        I'm a 17-year-old web developer who loves crafting clean, modern, and
+        high-performance websites. Currently diving deep into JavaScript.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-eye"></i> Check out my work
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-comment"></i> Get in touch
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    ABOUT
+    ============================================================ -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              <strong>Hey there!</strong> I'm Parham, a 17-year-old developer
+              from Iran who turned a curiosity for code into a real passion.
+            </p>
+            <p>
+              I started my journey with <strong>HTML &amp; CSS</strong>, and now
+              I'm deep into <strong>JavaScript</strong> — making websites that
+              are not just beautiful, but also fast, interactive, and
+              user-friendly.
+            </p>
+            <p>
+              My goal is to help small businesses and startups build their
+              online presence. I believe that great design and clean code can
+              change the way people experience the web.
+            </p>
+            <p>
+              When I'm not coding, I'm learning new things, reading about
+              design, or drinking too much tea ☕.
+            </p>
+          </div>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="number">1+</div>
+              <div class="label">Years of coding</div>
+            </div>
+            <div class="stat-card">
+              <div class="number">5+</div>
+              <div class="label">Projects built</div>
+            </div>
+            <div class="stat-card">
+              <div class="number">∞</div>
+              <div class="label">Curiosity</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    SKILLS
+    ============================================================ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Responsive</span>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-git-alt"></i>
+            <span>Git / GitHub</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-pencil-ruler"></i>
+            <span>UI/UX Basics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    PROJECTS
+    ============================================================ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Things I've Built</h2>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="icon"><i class="fas fa-code"></i></div>
+            <h3>Portfolio V1</h3>
+            <p>
+              My very first personal website built with pure HTML &amp; CSS.
+              Clean, dark, and fully responsive.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="icon"><i class="fas fa-rocket"></i></div>
+            <h3>Landing Page</h3>
+            <p>
+              A modern landing page for a fictional startup with smooth
+              animations and a contact form.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="icon"><i class="fas fa-calculator"></i></div>
+            <h3>JS App</h3>
+            <p>
+              Interactive calculator built with vanilla JavaScript — practice
+              project for DOM manipulation &amp; logic.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================================================
+    CONTACT
+    ============================================================ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <p>
+              Have a question, a project idea, or just want to say hi? I'm
+              always open to interesting conversations and new opportunities.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:parham@example.com">
+                <i class="fas fa-envelope"></i> parham@example.com
+              </a>
+              <a href="#"> <i class="fab fa-github"></i> github.com/parham </a>
+              <a href="#">
+                <i class="fab fa-linkedin"></i> linkedin.com/in/parham
+              </a>
+              <a href="#"> <i class="fab fa-twitter"></i> @parham_dev </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message..." required></textarea>
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    FOOTER
+    ============================================================ -->
+    <footer>
+      <div class="container">
+        <div class="socials">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>
+          © 2026 Parham · Personal Website
+          <i class="fas fa-heart" style="color: #64ffda"></i>
+        </p>
+      </div>
+    </footer>
+
+    <!-- ============================================================
+    JAVASCRIPT
+    ============================================================ -->
+    <script src="script.js"></script>
+  </body>
+</html>
